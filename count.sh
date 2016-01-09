@@ -4,6 +4,6 @@
 for filename in data/*.txt
 do
 	date
-    echo $filename
-    grep -v Species $filename | cut -d, -f2 | sort | uniq -c |sort -n -r
+    echo $f
+    grep -v Species $f | cut -d, -f2 | sort | uniq -c |sort -n -r
 done
