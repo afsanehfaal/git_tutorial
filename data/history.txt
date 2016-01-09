@@ -1,0 +1,145 @@
+    1  python
+    2  cd 
+    3  pwd
+    4  vim .bashrc
+    5  cd
+    6  vim .bashrc 
+    7  . .bashrc 
+    8  python -i
+    9  vim .bash
+   10  vim .bashrc 
+   11  source .bashrc
+   12  python -i
+   13  pwd
+   14  ls
+   15  cd /E/
+   16  ls
+   17  cd /e/programs
+   18  ls
+   19  cd
+   20  path
+   21  git version
+   22  git --version
+   23  clear
+   24  git config --list
+   25  git config --global user.name "Afsaneh"
+   26  git config --global user.mail "ghayoumi.afsaneh@gmail.com"
+   27  git config --list
+   28  git config --global user.name "Afsaneh faal"
+   29  git config --list
+   30  git config --global user.name "Afsaneh"
+   31  git status
+   32  whoami
+   33  whereami
+   34  pwd
+   35  tree 00
+   36  tree..
+   37  clear
+   38  tree .
+   39  tree .
+   40  clear
+   41  pwd
+   42  ls /
+   43  ls /home/
+   44  ls /h
+   45  clear
+   46  ls /c/hiberfil.sys 
+   47  ls /
+   48  ls -f
+   49  clear
+   50  mkdir tutorial
+   51  pwd
+   52  cd tutorial
+   53  pwd
+   54  ls
+   55  wc fish.txt #wordcount
+   56  wc -l
+   57  head fish.txt
+   58  head  -5 fish.txt
+   59  tail -5 fish.txt
+   60  cat fish.txt fish.txt
+   61  cat fish.txt
+   62  head -8 fish.txt > temp.txt
+   63  head temp.txt
+   64  history 
+   65  clear
+   66  history > history.txt
+   67  rm temp.txt
+   68  head -8 fish.txt | tail -4
+   69  history > history.txt
+   70  mkdir exercise
+   71  cd excecise
+   72  cd excercise
+   73  cd excercise
+   74  ls
+   75  cd exercise
+   76  clear
+   77  head -7 hello.cpp | tail -5
+   78  head -7 hello.cpp | tail -5 > say_hello.txt
+   79  wc say_hello.txt
+   80  head -6 hello.cpp | tail -4 > say_hello.txt
+   81  wc say_hello.txt
+   82  cat say_hello.txt ..tutorial/fish.txt | wc -1
+   83  history > history.txt
+   84  cd ..
+   85  cut -d, -f 1 fish.txt 
+   86  cut -d, -f 2 fish.txt 
+   87  history > history.txt
+   88  cear
+   89  clear
+   90  cut -d, -f 2 fish.txt | sort
+   91  cut -d, -f 2 fish.txt | sort -v
+   92  cut -d, -f 2 fish.txt | sort | uniq -c
+   93  cut -d, -f 2 fish.txt | sort | uniq
+   94  cut -d, -f 2 fish.txt | sort | uniq -c >seen.txt
+   95  notepad seen.txt
+   96  rm seen.txt
+   97  cut -d, -f 2 fish.txt | sort | uniq -c |wc
+   98  cut -d, -f 2 fish.txt | sort -v | uniq -c |wc
+   99  cut -d, -f 2 fish.txt | sort -V | uniq -c |wc
+  100  tail +2 fish.txt
+  101  cut -d, -f 2 fish.txt | sort -V | uniq -c | tail -n +2
+  102  --help
+  103  clear
+  104  grep marlin fish.txt
+  105  grep Species fish.txt
+  106  grep -i Species fish.txt
+  107  grep -v Species fish.txt
+  108  grep -v Species fish.txt |cut -d , -f 3 | sort
+  109  grep -v Species fish.txt |cut -d , -f 2 | sort
+  110  grep -v Species fish.txt |cut -d , -f 2 | sort | uniq -c
+  111  history | grep tail
+  112  history | grep history
+  113  history > history.txt
+  114  clear
+  115  history | grep tail
+  116  cut -d, -f 2 fish.txt | sort -V |uniq -c |tail -n +2
+  117  cut -d, -f 2 fish.txt | sort -V |uniq -c |tail -n +2 >tail.txt
+  118  diff grep.txt fish.txt
+  119  diff tail.txt fish.txt
+  120  rm tail.txt
+  121  grep turtle matt.txt matt_old.txt
+  122  grep --color turtle matt.txt matt_old.txt
+  123  grep -h --color turtle matt.txt matt_old.txt
+  124  grep -h --color '-05-' matt.txt matt_old.txt
+  125  grep -h --color -e '-05-' matt.txt matt_old.txt
+  126  grep -h --color may  matt.txt matt_old.txt
+  127  grep -h --color May  matt.txt matt_old.txt
+  128  grep -h --color -e '-05-' matt.txt matt_old.txt
+  129  wc matt.txt mat_old.txt
+  130  wc matt.txt matt_old.txt
+  131  ls matt*
+  132  mv matt_old.txt matt_2014.txt
+  133  ls
+  134  mv fish.txt dimitri_2015.txt
+  135  mv fish.txt aiden_2015.txt
+  136  mv morefish.txt aiden_2015.txt
+  137  for data in dimitri_2015.txt aodem_2015.txt; d0
+  138  for data in dimitri_2015.txt aodem_2015.txt; do wc $data ; done
+  139  pwd; ls
+  140  for data in dimitri_2015.txt aodem_2015.txt; do grep -v species $data |cut -d , -f 2 |uniq -c; done
+  141  for data in dimitri_2015.txt aodem_2015.txt; do grep -v species $data |cut -d , -f 2 |uniq -c; done
+  142  for data in dimitri_2015.txt aiden_2015.txt; do grep -v species $data |cut -d , -f 2 |uniq -c; done
+  143  clear
+  144  for data in dimitri_2015.txt aiden_2015.txt; do echo $data grep -v species $data |cut -d , -f 2 |uniq -c; done
+  145  history > history.txt
